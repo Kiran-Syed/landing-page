@@ -1,0 +1,139 @@
+
+/* ----------------- Nav Bar ---------------- */
+
+body{
+    background-color: rgb(174, 215, 234);
+  width: 80%;
+  height:auto;
+  /* border: 2px solid black; */
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#mainlist{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ h2 i{
+    padding-right: 5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.btn button{
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    border-color: blue;
+    color:blue;
+    background-color: rgb(174, 215, 234);
+    box-shadow: 0 0 1px ;
+}
+
+nav{
+    display: grid;
+    grid-row-gap: 80px;
+}
+
+/* ---------------- Section / Main Content ---------------- */
+
+#mainContent{
+    /* border:2px solid blueviolet; */
+    width:40%;
+   text-align: center;
+}
+
+#mainCon{
+    display: flex;
+    justify-content: center;
+}
+
+div .para1{
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-size: 10px;
+}
+
+h1{
+    font-size:43px ;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    width:40%;
+    height:31px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    border-top-left-radius: 3px;
+    padding-left: 10px;
+    text-align: center;
+    position:relative;
+    top:0;
+    right:0;
+}
+.fa-envelope{
+    position: relative;
+    top:0;
+    left:30px;
+    z-index: 1;
+    color: rgb(45, 19, 238);
+}
+
+#mainInput button{
+    width:30%;
+    height:33px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    border-top-right-radius: 3px;
+    color: white;
+    background-color: red;
+}
+
+.para2{
+       line-height: 25px;
+       font-size: 13px;
+       width:80%;
+       margin: auto;
+       padding-bottom: 20px;
+}
+.para3{
+    padding-top: 10px;
+}
+
+/* -------------------- Footer ---------------------- */
+#footer{
+    display: flex;
+  justify-content: space-between;
+}
+
+.foot{
+    /* border: 2px solid black; */
+    width:20%;
+    display: flex;
+    column-gap:10px;
+}
+
+.foot h3{
+    font-size :18px;
+}
+
+.foot p{
+    font-size: 13px;
+}
+
+.icon {
+    margin-top: 25px;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
